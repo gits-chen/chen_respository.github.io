@@ -1,0 +1,503 @@
+@charset "utf-8";
+.jieshao{
+    position: absolute;
+    width:20%;
+    top:2vh;
+    left:2vw;
+    z-index: 3;
+}
+.mp4{
+    position: relative;
+    z-index: 1;
+}
+.kaituo{
+    position: absolute;
+    width:35%;
+    top: 400px;
+    right: 100px;
+    z-index: 2;
+}
+h1 {
+  margin-top: 0px;
+  margin-right: 0%;
+  margin-left: 0%;
+margin-bottom: 0%;
+  padding-top: 3.5%;
+  padding-right: 3.5%;
+  padding-bottom: 3.7%;
+  padding-left: 3.5%;
+  color: rgba(255,255,255,1.00);
+  background-image: -webkit-linear-gradient(275deg,rgba(0,118,249,1.00) 0%,rgba(123,180,196,1.00) 74.95%,rgba(154,248,255,1.00) 100%);
+  background-image: -moz-linear-gradient(275deg,rgba(0,118,249,1.00) 0%,rgba(123,180,196,1.00) 74.95%,rgba(154,248,255,1.00) 100%);
+  background-image: -o-linear-gradient(275deg,rgba(0,118,249,1.00) 0%,rgba(123,180,196,1.00) 74.95%,rgba(154,248,255,1.00) 100%);
+  background-image: linear-gradient(175deg,rgba(0,118,249,1.00) 0%,rgba(123,180,196,1.00) 74.95%,rgba(154,248,255,1.00) 100%);
+  background-color: rgba(0,0,0,1.00);
+  text-align: center;
+  text-shadow: 0px 0px rgba(0,124,249,1.00);
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  border-width: 0px;
+  font-weight: 750;
+  font-size:2.5rem;
+}
+h2 {
+    margin-top: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+	margin-bottom: 0%;
+    padding-top: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 3.7%;
+    padding-left: 3.5%;
+    color: rgba(255,255,255,1.00);
+    background-image: -webkit-linear-gradient(275deg,rgba(0,118,249,1.00) 0%,rgba(123,180,196,1.00) 74.95%,rgba(154,248,255,1.00) 100%);
+    background-image: -moz-linear-gradient(275deg,rgba(0,118,249,1.00) 0%,rgba(123,180,196,1.00) 74.95%,rgba(154,248,255,1.00) 100%);
+    background-image: -o-linear-gradient(275deg,rgba(0,118,249,1.00) 0%,rgba(123,180,196,1.00) 74.95%,rgba(154,248,255,1.00) 100%);
+    background-image: linear-gradient(175deg,rgba(0,118,249,1.00) 0%,rgba(123,180,196,1.00) 74.95%,rgba(154,248,255,1.00) 100%);
+    background-color: rgba(0,0,0,1.00);
+    text-align: center;
+    text-shadow: 0px 0px rgba(0,124,249,1.00);
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    border-width: 0px;
+    font-weight: 750;
+    font-size:2.5rem;
+}
+
+body img {
+    float: left;
+    width: 19%;
+    height: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: xx-large;
+    text-shadow: 1000px 1000px 1000px;
+    border-width: 0px;
+}
+h1 a {
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+    letter-spacing: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border-width: 0px;
+}
+h2 a {
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+    letter-spacing: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border-width: 0px;
+}
+h1 a:hover  {
+    color: rgba(191,255,190,1.00);
+    background-image: -webkit-linear-gradient(290deg,rgba(176,239,248,1.00) 0%,rgba(74,168,255,1.00) 100%);
+    background-image: -moz-linear-gradient(290deg,rgba(176,239,248,1.00) 0%,rgba(74,168,255,1.00) 100%);
+    background-image: -o-linear-gradient(290deg,rgba(176,239,248,1.00) 0%,rgba(74,168,255,1.00) 100%);
+    background-image: linear-gradient(160deg,rgba(176,239,248,1.00) 0%,rgba(74,168,255,1.00) 100%);
+    font-weight: 900;
+    font-size: larger;
+    border-width: thin;
+    z-index: 99;
+}
+h2 a:hover  {
+    color: rgba(191,255,190,1.00);
+    background-image: -webkit-linear-gradient(290deg,rgba(176,239,248,1.00) 0%,rgba(74,168,255,1.00) 100%);
+    background-image: -moz-linear-gradient(290deg,rgba(176,239,248,1.00) 0%,rgba(74,168,255,1.00) 100%);
+    background-image: -o-linear-gradient(290deg,rgba(176,239,248,1.00) 0%,rgba(74,168,255,1.00) 100%);
+    background-image: linear-gradient(160deg,rgba(176,239,248,1.00) 0%,rgba(74,168,255,1.00) 100%);
+    font-weight: 900;
+    font-size: larger;
+    border-width: thin;
+    z-index: 99;
+}
+.full_screen video {
+    float: left;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+}
+.xaunchuan {
+    margin-left: 5%;
+}
+.quanju {
+    width: 100%;
+}
+#unmuteButton {
+    background-image: url("image/music.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 5%;
+    height: 8.7%;
+    position: absolute;
+    top: 5vh;
+    right: 0.6vw;
+    z-index: 2;
+    mix-blend-mode: multiply;
+    border: none;
+    outline: none;
+    filter: brightness(110%);
+  }
+  #unmuteButton:hover {
+    background-image: url("image/music.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 5.5%;
+    height: 9.5%;
+    position: absolute;
+    top: 4.7vh;
+    right: 0.3vw;
+    z-index: 2;
+    mix-blend-mode: multiply;
+    border: none;
+    outline: none;
+    filter: brightness(110%);
+  }
+  .image-container {
+    position: relative;
+  }
+  
+  .background-image {
+    position: relative;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    z-index: 1;
+  }
+  
+  .foreground-image {
+    position: absolute;
+    width: 20%;
+    top: 700px;
+    left: 650px;
+    z-index: 2;
+  }
+  .foreground-image:hover {
+    position: absolute;
+    width: 21%;
+    top: 695px;
+    left: 640px;
+    z-index: 2;
+  }
+  .foreground-image1 {
+    position: absolute;
+    width: 30%;
+    top: 50px;
+    left: 35px;
+    z-index: 2;
+  }
+
+  .background{ 
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+  
+  .kaituozhe {
+    position: absolute;
+    width: 25%;
+    top: 3vh;
+    left: 2vw;
+    z-index: 2;
+  }  
+  .kaituozhe:hover{
+    position: absolute;
+    width: 26%;
+    top: 3vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .kaituozhe1{
+    position: absolute;
+    width: 48%;
+    top: 7vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .kaituozhe1:hover{
+    position: absolute;
+    width: 49%;
+    top: 7vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .yukaituozhe1{
+    position: absolute;
+    width: 30%;
+    top: 7vh;
+    right: 7vw;
+    z-index: 2;
+  }
+  .Sanyueqi {
+    position: absolute;
+    width: 32%;
+    top: 0vh;
+    left: 32vw;
+    z-index: 2;
+  }  
+  .Sanyueqi:hover {
+    position: absolute;
+    width: 33%;
+    top: 0vh;
+    left: 32vw;
+    z-index: 2;
+  }  
+  .Sanyueqi1{
+    position: absolute;
+    width: 58%;
+    top: 2vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .Sanyueqi1:hover{
+    position: absolute;
+    width: 59%;
+    top: 2vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .yuSanyueqi1{
+    position: absolute;
+    width: 30%;
+    top: 7vh;
+    right: 7vw;
+    z-index: 2;
+  }
+  .Danheng {
+    position: absolute;
+    width: 25%;
+    top: 4vh;
+    right:5vw;
+    z-index: 2;
+  }
+  .Danheng:hover{
+    position: absolute;
+    width: 26%;
+    top: 4vh;
+    right:5vw;
+    z-index: 2;
+  }
+  .Danheng1{
+    position: absolute;
+    width: 49%;
+    top: 11vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .Danheng1:hover{
+    position: absolute;
+    width: 50%;
+    top: 11vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .yuDanheng1{
+    position: absolute;
+    width: 30%;
+    top: 7vh;
+    right: 7vw;
+    z-index: 2;
+  }
+  .yinlang {
+    position: absolute;
+    width: 33%;
+    top: 41vh;
+    left: 0;
+    z-index: 2;
+  }
+  .yinlang:hover{
+    position: absolute;
+    width: 34%;
+    top: 41vh;
+    left: 0;
+    z-index: 2;
+  }
+  .yinlang1{
+    position: absolute;
+    width: 57%;
+    top: 5vh;
+    left: 0vw;
+    z-index: 2;
+  }
+  .yinlang1:hover{
+    position: absolute;
+    width: 58%;
+    top: 5vh;
+    left: 0vw;
+    z-index: 2;
+  }
+  .yuyinlang1{
+    position: absolute;
+    width: 30%;
+    top: 7vh;
+    right: 7vw;
+    z-index: 2;
+  }
+  .Fuxuan {
+    position: absolute;
+    width: 32%;
+    top: 40vh;
+    left: 30vw;
+    z-index: 2;
+  }
+  .Fuxuan:hover{
+    position: absolute;
+    width: 33%;
+    top: 40vh;
+    left: 30vw;
+    z-index: 2;
+  }
+  .Fuxuan1{
+    position: absolute;
+    width: 49%;
+    top: 7vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .Fuxuan1:hover{
+    position: absolute;
+    width: 50%;
+    top: 7vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .yuFuxuan1{
+    position: absolute;
+    width: 30%;
+    top: 7vh;
+    right: 7vw;
+    z-index: 2;
+  }
+  .Qingque {
+    position: absolute;
+    width: 33%;
+    top: 42vh;
+    right: 3vw;
+    z-index: 2;
+  }
+  .Qingque:hover {
+    position: absolute;
+    width: 34%;
+    top: 42vh;
+    right: 3vw;
+    z-index: 2;
+  }
+  .Qingque1 {
+    position: absolute;
+    width: 54%;
+    top: 7vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .Qingque1:hover {
+    position: absolute;
+    width: 55%;
+    top: 7vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  .yuQingque1{
+    position: absolute;
+    width: 30%;
+    top: 7vh;
+    right: 7vw;
+    z-index: 2;
+  }
+  .benghuai2{
+    position: absolute;
+    width: 10%;
+    top: 70vh;
+    right: 3vw;
+    z-index: 3;
+  }
+  .benghuai2:hover{
+    position: absolute;
+    width: 10.3%;
+    top: 70vh;
+    right: 3vw;
+    z-index: 3;
+  }
+  .benghuai3{
+    position: absolute;
+    width: 11%;
+    top: 70vh;
+    right: 20vw;
+    z-index: 3;
+  }
+  .benghuai3:hover{
+    position: absolute;
+    width: 11.3%;
+    top: 70vh;
+    right: 20vw;
+    z-index: 3;
+  }
+  .weiding{
+    position: absolute;
+    width: 10%;
+    top: 72vh;
+    right: 37vw;
+    z-index: 3;
+  }
+  .weiding:hover{
+    position: absolute;
+    width: 10.3%;
+    top: 72vh;
+    right: 37vw;
+    z-index: 3;
+  }
+  .yuanshen{
+    position: absolute;
+    width: 10.5%;
+    top: 72.5vh;
+    right: 54vw;
+    z-index: 3;
+  }
+  .yuanshen:hover{
+    position: absolute;
+    width: 10.8%;
+    top: 72.5vh;
+    right: 54vw;
+    z-index: 3;
+  }
+  .starraillogo{
+    position: absolute;
+    width: 12%;
+    top: 72vh;
+    right: 71vw;
+    z-index: 3;
+  }
+  .starraillogo:hover{
+    position: absolute;
+    width: 12.3%;
+    top: 72vh;
+    right: 71vw;
+    z-index: 3;
+  }
+  .zzz{
+    position: absolute;
+    width: 10.6%;
+    top: 70.5vh;  
+    right: 89vw;
+    z-index: 3;
+  }
+  .zzz:hover{
+    position: absolute;
+    width: 10.9%;
+    top: 70.5vh;  
+    right: 89vw;
+    z-index: 3;
+  }
